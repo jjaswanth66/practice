@@ -8,7 +8,7 @@ pipeline {
                }
       }
       steps {
-        git 'git@github.com:jjaswanth66/practice.git'
+        git 'https://github.com/jjaswanth66/jenkins_pipeline.git'
         sh 'mvn --version' 
         sh 'mvn install'
         sh 'mvn package'
